@@ -24,8 +24,6 @@ use_key() {
         echo "Value: $GIT_SSH_COMMAND"
         echo ""
         echo "Note: For this change to affect your current terminal session,"
-        echo "you must 'source' this script, not just execute it."
-        echo "Example: source ./ssh_manager.sh use $key_name"
     else
         echo "Error: Key file '$key_name' not found in $SSH_DIR."
         list_keys # Show available keys if the specified one is not found
