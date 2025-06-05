@@ -1,6 +1,6 @@
 # How to use the script
 ### step1: 
-`chmod +x set_git_ssh.sh`
+`chmod +x ssh_manager.sh`
 
 ### step2: 
 #### mode: list all available ssh key in local machine
